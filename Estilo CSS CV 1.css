@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	border: 10px solid rgb(226, 26, 26);
+	padding: 1em;
+	background-image: url("IMAGENES/Fondo_de_plantas_verdes.JPG");
+	font-family: 'Cabin', sans-serif;
+}
+
+
+h1 {padding: 6px; 
+	color: rgb(223, 223, 233);
+	font-size: 32px; 
+}
+
+.img-redonda {
+	width:200px;
+    height:200px;
+    border-radius:105px;
+	border:5px solid white;
+	box-shadow: 10px 5px 5px black;
+}
+
+/* Aplicar propiedades a barra de navegación */
+/*.menu {*/
+.menu	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+	
+.menu	li {
+		float: left;
+	}
+	
+.menu	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	/* Change the link color to #111 (black) on hover */
+.menu	li a:hover {
+		background-color: #111;
+	
+}
+
+footer {
+	background-color: #333;
+	border: 5px solid black;
+	border-radius: 2.5px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+/*Formulario de Contacto*/
+.formulario {
+	display: flex;
+    align-items: center;
+	background-color: #333;
+	border: 5px solid black;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+}
+label, input {
+	display: flex;
+    align-items: center;
+}
